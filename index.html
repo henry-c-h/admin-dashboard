@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo">
+                <img class="dashboard-icon" src="./icons/dashboard.svg" alt="dashboard icon">
+                <p>Dashboard</p> 
+            </div>
+            <ul class="main-menu">
+                <li>
+                    <a href="" class="menu-icon"><img src="./icons/home_white_24dp.svg" alt="home icon">
+                    <p>Home</p></a>
+                </li>
+                <li>
+                    <a href="" class="menu-icon"><img src="./icons/person_white_24dp.svg" alt="profile icon">
+                    <p>Profile</p></a>
+                </li>
+                <li><a href="" class="menu-icon"><img src="./icons/comment_white_24dp.svg" alt="message icon">
+                    <p>Messages</p></a></li>
+                <li><a href="" class="menu-icon"><img src="./icons/work_history_white_24dp.svg" alt="history icon">
+                    <p>History</p></a></li>
+                <li><a href="" class="menu-icon"><img src="./icons/checklist_white_24dp.svg" alt="task icon">
+                    <p>Tasks</p></a></li>
+                <li><a href="" class="menu-icon"><img src="./icons/groups_white_24dp.svg" alt="community icon">
+                    <p>Communities</p></a></li>
+            </ul>
+            <ul class="settings">
+                <li><a href="" class="menu-icon"><img src="./icons/settings_white_24dp.svg" alt="settings icon">
+                    <p>Settings</p></a></li>
+                <li><a href="" class="menu-icon"><img src="./icons/help_white_24dp.svg" alt="support icon">
+                    <p>Support</p></a></li>
+                <li><a href="" class="menu-icon"><img src="./icons/lock_white_24dp.svg" alt="privacy icon">
+                    <p>Privacy</p></a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <div class="header">
+                <div class="top">
+                    <form class="search-bar" action="" method="get">
+                        <label for="page-search">
+                            <img src="./icons/search_white_24dp.svg" alt="search icon">
+                        </label>
+                        <input type="search" name="q" id="page-search">
+                    </form>
+                    <div class="account">
+                        <a href="">
+                            <img src="./icons/notifications_active_white_24dp.svg" alt="notification icon">
+                        </a>
+                        <a href="">
+                            <img class="user-avatar "src="./icons/avatar2.svg" alt="avatar">
+                        </a>
+                        <a href="">Henry C</a>
+                    </div>
+                </div>
+                <div class="header-menu">
+                    <div class="greeting">
+                        <img src="./icons/avatar2.svg" alt="avatar">
+                        <div class="msg">
+                            <p>Hi there,</p> 
+                            <p><strong>Henry C (@henryc)</strong></p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><button href="">New</button></li>
+                        <li><button href="">Upload</button></li>
+                        <li><button href="">Share</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="projects content-container">
+                    <div class="title">
+                        <img src="./icons/visualization-squares-svgrepo-com.svg" alt="project icon">
+                        <p>Your Projects</p> 
+                    </div>
+                    <div class="project-cards">
+                        <div class="card">
+                            <div class="project-content">
+                                <p class="project-title"><a href="">Super Cool Project</a></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec pretium lacus, at mollis ipsum. Mauris ante diam, varius vel metus id, vehicula ultrices elit.</p>
+                            </div>
+                            <div class="project-setting">
+                                <a href=""><img src="./icons/star_outline_black_24dp.svg" alt="favorite icon"></a>
+                                <a href=""><img src="./icons/visibility_black_24dp.svg" alt="visibility icon"></a>
+                                <a href=""><img src="./icons/share_black_24dp.svg" alt="share icon"></a>                   </div>
+                        </div>
+                        <div class="card">
+                            <div class="project-content">
+                                <p class="project-title"><a href="">Less Cool Project</a></p>
+                                <p>Mauris sit amet sem non justo vulputate condimentum. Nullam vestibulum accumsan magna, ac volutpat ipsum ultricies fringilla. Morbi vitae elit ornare, pretium magna ac, facilisis turpis.</p>
+                            </div>
+                            <div class="project-setting">
+                                <a href=""><img src="./icons/star_outline_black_24dp.svg" alt="favorite icon"></a>
+                                <a href=""><img src="./icons/visibility_black_24dp.svg" alt="visibility icon"></a>
+                                <a href=""><img src="./icons/share_black_24dp.svg" alt="share icon"></a>                   
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="project-content">
+                                <p class="project-title"><a href="">Impossible App</a></p>
+                                <p>Etiam gravida diam nisi, at fringilla urna semper a. Aenean nec laoreet urna.</p>
+                            </div>
+                            <div class="project-setting">
+                                <a href=""><img src="./icons/star_outline_black_24dp.svg" alt="favorite icon"></a>
+                                <a href=""><img src="./icons/visibility_black_24dp.svg" alt="visibility icon"></a>
+                                <a href=""><img src="./icons/share_black_24dp.svg" alt="share icon"></a>                   
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="project-content">
+                                <p class="project-title"><a href="">Easy Peasy App</a></p>
+                                <p>Quisque consequat pretium sapien, non posuere lectus vehicula a. Curabitur suscipit lacus erat, nec malesuada tellus vehicula a.</p>
+                            </div>
+                            <div class="project-setting">
+                                <a href=""><img src="./icons/star_outline_black_24dp.svg" alt="favorite icon"></a>
+                                <a href=""><img src="./icons/visibility_black_24dp.svg" alt="visibility icon"></a>
+                                <a href=""><img src="./icons/share_black_24dp.svg" alt="share icon"></a>                   
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="project-content">
+                                <p class="project-title"><a href="">Ad Blocker</a></p>
+                                <p>Integer tempus imperdiet orci, ac eleifend magna hendrerit nec. Cras fermentum diam ex, feugiat convallis ante vehicula vel.</p>
+                            </div>
+                            <div class="project-setting">
+                                <a href=""><img src="./icons/star_outline_black_24dp.svg" alt="favorite icon"></a>
+                                <a href=""><img src="./icons/visibility_black_24dp.svg" alt="visibility icon"></a>
+                                <a href=""><img src="./icons/share_black_24dp.svg" alt="share icon"></a>                   
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="project-content">
+                                <p class="project-title"><a href="">Money Maker</a></p>
+                                <p>Nulla luctus ligula quis libero tristique aliquam. Fusce bibendum mattis dolor eget tempus.</p>
+                            </div>
+                            <div class="project-setting">
+                                <a href=""><img src="./icons/star_outline_black_24dp.svg" alt="favorite icon"></a>
+                                <a href=""><img src="./icons/visibility_black_24dp.svg" alt="visibility icon"></a>
+                                <a href=""><img src="./icons/share_black_24dp.svg" alt="share icon"></a>                   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="announcements content-container">
+                    <div class="title">
+                        <img src="./icons/megaphone-megaphone-svgrepo-com.svg" alt="annoucement icon">
+                        <p>Announcements</p>
+                    </div>
+                    <div class="announcement-cards">
+                        <div class="announcement">
+                            <p class="announcement-title"><a href="">Site Maintenance</a></p>
+                            <p>Ut ultricies velit vitae justo pharetra, ut suscipit tortor placerat. Ut tempus, augue id tincidunt ultricies, urna neque ultricies leo, a pretium nibh orci vel leo.</p>
+                        </div>
+                        <div class="announcement">
+                            <p class="announcement-title"><a href="">Community Share Day</a></p>
+                            <p>Duis efficitur commodo augue eu laoreet.</p>
+                        </div>
+                        <div class="announcement">
+                            <p class="announcement-title"><a href="">Updated Privacy Policy</a></p>
+                            Donec congue mattis tincidunt. Cras arcu urna, convallis id efficitur eget, tempus sit amet lorem.
+                        </div>
+                    </div>
+                </div>
+                <div class="trending content-container">
+                    <div class="title">
+                        <img src="./icons/growth-svgrepo-com.svg" alt="trending icon">
+                        <p>Trending</p>
+                    </div>
+                    <div class="trending-cards">
+                        <div class="trending-profile">
+                            <img src="./icons/avatar1.svg" alt="avatar icon">
+                            <div class="profile-info">
+                                <p>@frasier</p>
+                                <p class="trending-project">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="trending-profile">
+                            <img src="./icons/avatar2.svg" alt="avatar icon">
+                            <div class="profile-info">
+                                <p>@henryc</p>
+                                <p class="trending-project">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="trending-profile">
+                            <img src="./icons/avatar3.svg" alt="avatar icon">
+                            <div class="profile-info">
+                                <p>@john</p>
+                                <p class="trending-project">Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="trending-profile">
+                            <img src="./icons/avatar4.svg" alt="avatar icon">
+                            <div class="profile-info">
+                                <p>@superman</p>
+                                <p class="trending-project">No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
